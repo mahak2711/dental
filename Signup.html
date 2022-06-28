@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup page</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <form action="">
+        <header>
+            <a class="login" href="login.html">Login page</a>&nbsp;
+            <a class="home"href="index.html">Home</a>&nbsp;
+            <h1>ABC Dentals</h1>
+            <h3>SIGNUP FORM</h3>
+        </header>
+        <main>
+            <p>Name Of patient: <input type="text" name="name" required placeholder="Enter Patient's name"> </p>
+            <p>Patient's Age: <input type="number" name="age" required placeholder="Enter Patient's age"></p>
+            <p>Date of birth: <input type="date" name="dob"></p>
+            <p>
+                <fieldset>
+                    <legend>Gender</legend>
+                    Male <input type="radio" name="gender" id="male"required >
+                    Female <input type="radio" name="gender" id="female" required>
+                    Others <input type="radio" name="gender" id="others" required>
+                </fieldset>
+            </p>
+            <p>Contact Details: <input type="number" name="contact" required placeholder="Enter a 10 digit no."></p>
+            <p>Email: <input type="email" name="email"></p>
+            <p>Medical Reports: <input type="file" name="report" required></p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </main>
+    </form>
+</body>
+</html>
